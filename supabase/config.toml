@@ -1,0 +1,12 @@
+# Minimal Supabase CLI project config for local migrations.
+# See https://supabase.com/docs/guides/cli
+
+project_id = "cyond-operations-portal"
+
+[api]
+enabled = true
+port = 54321
+
+[db]
+port = 54322
+major_version = 15
